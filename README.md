@@ -26,4 +26,4 @@ Za sprejemanje povezav mora sprejemna aplikacija v datoteki **AndroidManifest.xm
 
 1. Klonirajte repozitorij.
 2. Projekt odprite v Android Studiu.
-3. Aplikacijo zaženite na emulatorju ali fizični napravi.d
+3. Aplikacijo zaženite na emulatorju ali fizični napravi.
