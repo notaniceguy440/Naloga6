@@ -2,8 +2,6 @@
 
 Android aplikacija za prikaz uporabe **implicitnih namenov**. Omogoča odpiranje spletne strani, prikaz lokacije na zemljevidu in deljenje besedila z drugimi aplikacijami.
 
-Projekt je nastal pri predmetu **Razvoj mobilnih aplikacij (Naloga 6)** in je prirejen po gradivu Android Developer Fundamentals – Homework 2.3.
-
 ## Funkcionalnosti
 
 | Gumb | Akcija | Opis |
@@ -21,9 +19,3 @@ Za sprejemanje povezav mora sprejemna aplikacija v datoteki **AndroidManifest.xm
 ## Tehnologije
 
 **Java**, **Android SDK**, **AndroidX**, **Android Studio**
-
-## Zagon
-
-1. Klonirajte repozitorij.
-2. Projekt odprite v Android Studiu.
-3. Aplikacijo zaženite na emulatorju ali fizični napravi.
