@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     private EditText mLocationEditText;
     private EditText mShareEditText;
 
+    private EditText mPhoneEditText;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         mWebsiteEditText = findViewById(R.id.website_edittext);
         mLocationEditText = findViewById(R.id.location_edittext);
         mShareEditText = findViewById(R.id.share_edittext);
+        mPhoneEditText = findViewById(R.id.editTextPhone);
     }
 
     public void openWebsite(View view) {
@@ -66,5 +69,16 @@ public class MainActivity extends AppCompatActivity {
                 .setChooserTitle(getString(R.string.share_text_with))
                 .setText(txt)
                 .startChooser();
+    }
+
+    public void phone(View view) {
+        String tele = mPhoneEditText.getText().toString().trim();
+        if (!tele.isEmpty()) {
+            Intent intent = new Intent(Intent.ACTION_DIAL);
+            intent.setData(Uri.parse("tel:" + tele));
+            startActivity(intent);
+        } else {
+            mPhoneEditText.setError("Please enter a phone number");
+        }
     }
 }
