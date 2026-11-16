@@ -6,9 +6,9 @@ Android aplikacija za prikaz uporabe **implicitnih namenov**. Omogoča odpiranje
 
 | Gumb | Akcija | Opis |
 |---|---|---|
-| **Open Website** | `Intent.ACTION_VIEW` | Odpre vneseni spletni naslov v brskalniku |
-| **Open Location** | `Intent.ACTION_VIEW` | Prikaže lokacijo na zemljevidu (`geo:0,0?q=lokacija`) |
-| **Share This Text** | `ShareCompat.IntentBuilder` | Deli besedilo z MIME tipom `text/plain` |
+| **Open Website** | Intent.ACTION_VIEW | Odpre vneseni spletni naslov v brskalniku |
+| **Open Location** | Intent.ACTION_VIEW | Prikaže lokacijo na zemljevidu (geo:0,0?q=lokacija) |
+| **Share This Text** | ShareCompat.IntentBuilder | Deli besedilo z MIME tipom text/plain |
 
 ## Delovanje
 
