@@ -19,3 +19,6 @@ Za sprejemanje povezav mora sprejemna aplikacija v datoteki **AndroidManifest.xm
 ## Tehnologije
 
 **Java**, **Android SDK**, **AndroidX**, **Android Studio**
+
+<img width="232" height="507" alt="image" src="https://github.com/user-attachments/assets/27844e6a-d0e4-416c-85e5-b1d807ab0303" />
+
